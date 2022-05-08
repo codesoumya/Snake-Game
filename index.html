@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakeGame - Lets Play !!!!!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/switch_style.css">
+    <link rel="stylesheet" href="css/speed_slider_style.css">
+    <link rel="stylesheet" href="css/contro_keys_style.css">
+    <link rel="stylesheet" href="css/theam_controll_board_style.css">
+    <link rel="stylesheet" href="css/food_style.css">
+    <link rel="stylesheet" href="css/snake_style.css">
+</head>
+<body>
+    <div class="body" id="body">
+        
+        
+        <div class="border_button" id="border_button">
+            <label for="">border : </label>
+            <input type="checkbox" class="switch_1" value="" id="btn">
+        </div>
+
+        <div class="music_button" id="music_button">
+            <label for="">Music :</label>
+            <input type="checkbox" checked class="switch_1" value="" id="music_btn">
+        </div>
+        
+        <div class="gSound_button" id="gSound_button">
+            <label for="">Game Sound :</label>
+            <input type="checkbox" checked class="switch_1"  value="" id="gSound_btn">
+        </div>
+
+        <div class="speedController">
+            <label for="">Speed : </label>
+            <div id="speedOutput"></div>
+            <input type="range" min="1" max="50" value="10" class="slider" id="snakeSpeed">
+          </div>    
+            <div id="scoreBo" ></div>
+        <div class="scr">
+            <label id="scoreBox" class="sc">Score: 0</label><br>
+            <label id="hiscoreBox" class="cr">HiScore: 0</label>
+        </div>
+     <div id="board_theam" class="element element_pos1">
+         <label for=""><b>Board Theam</b></label><br><br>
+            <input type="radio" id="b1" name="rate" value="Theam One"> Sky <br>
+            <input type="radio" id="b2" name="rate" value="Theam Two"> Sun Rise <br>
+            <input type="radio" id="b3" name="rate" value="Theam Three" checked="checked"> Peace <br>
+            <input type="radio" id="b3" name="rate" value="Theam Four" > Field <br>
+    </div> 
+
+    <div id="bg_theam" class="element element_pos2">
+        <label for=""><b>Overall Theam</b></label><br><br>
+           <input type="radio" id="b1" name="bgthm" value="Theam One"> amazona <br>
+           <input type="radio" id="b2" name="bgthm" value="Theam Two"> Sahara  <br>
+           <input type="radio" id="b3" name="bgthm" value="Theam Three" checked="checked"> Suiden <br>
+           <input type="radio" id="b2" name="bgthm" value="Theam Four"> Dark world <br>
+   </div>
+
+   <div id="snk_theam" class="element element_pos3">
+        <label for=""><b>Snake Theam</b></label><br><br>
+       <input type="radio" id="b1" name="snkthm" value="Theam One"> Blue Dragon <br>
+       <input type="radio" id="b2" name="snkthm" value="Theam Two"> Cobra  <br>
+       <input type="radio" id="b3" name="snkthm" value="Theam Three" checked="checked"> Corn Kalas <br>
+       <input type="radio" id="b2" name="snkthm" value="Theam Four"> Black Mamba <br>
+    </div>
+
+    <div class="controll_switch " id="controll_switch">
+        <div class="switch up" id="arrow_up"></div>
+        <div class="switch left" id="arrow_left"></div>
+        <div class="switch right" id="arrow_right"></div>
+        <div class="switch down" id="arrow_down"></div>
+        
+    </div>
+
+        
+
+        <div class="board_container">
+            <div id="board" class="the_board board_style_1"></div>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>

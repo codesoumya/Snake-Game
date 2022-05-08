@@ -1,0 +1,94 @@
+
+.border_button{
+	position: absolute;
+	width: 200px;
+    top: 9px;
+    left: 200px;
+	font-size: 20px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+	background: linear-gradient(-45deg, #f80606b8, rgba(37, 237, 44, 0.65));
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),-8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+	padding: 5px;
+	border-bottom: #ddd solid 2px;
+	opacity: 0.6;
+}
+
+.music_button{
+	position: absolute;
+	width: 200px;
+    top: 52px;
+    left: 200px;
+	font-size: 20px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+	background: linear-gradient(-45deg, #b5ef06e8, rgba(141, 114, 135, 0.866));
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),-8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+	padding: 5px;
+	border-bottom: #ddd solid 2px;
+	opacity: 0.6;
+}
+
+.gSound_button{
+	position: absolute;
+	width: 200px;
+    top: 95px;
+    left: 200px;
+	font-size: 20px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+	background: linear-gradient(-125deg, #e60505b8, rgba(37, 217, 237, 0.65));
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),-8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+	padding: 5px;
+	border-bottom: #ddd solid 2px;
+	opacity: 0.6;
+}
+
+.font_color1{
+	color: purple;
+}
+.font_color2{
+	color: rgb(142, 189, 240);
+}
+input[type="checkbox"].switch_1{
+	font-size: 15px;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	width: 3.5em;
+	height: 1.5em;
+	background: #ddd;
+	border-radius: 3em;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+  }
+  
+  input[type="checkbox"].switch_1:checked{
+	background: #0ebeff;
+  }
+  
+  input[type="checkbox"].switch_1:after{
+	position: absolute;
+	content: "";
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	        box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	-webkit-transform: scale(.7);
+	        transform: scale(.7);
+	left: 0;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+  }
+  
+  input[type="checkbox"].switch_1:checked:after{
+	left: calc(100% - 1.5em);
+  }

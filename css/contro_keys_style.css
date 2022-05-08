@@ -1,0 +1,67 @@
+#controll_switch{
+    position: absolute;
+    right: 40px;
+    top: 330px;
+    width: 175px;
+    height: 175px;
+    padding: 10px;
+    background: linear-gradient(-135deg, rgba(121, 84, 230, 0.72), rgba(205, 249, 31, 0.65));
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),-8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.switch{
+    position: relative;
+    transition: 0.5s;
+}
+
+.up{
+    top: 0%;
+    left: 30%;
+    width: 40%;
+    height: 25%;
+    background: url(../img/arrow_up.png);
+    background-size: contain;
+    
+}
+.up:hover{
+    transform: scale(1.4);
+}
+
+.left{
+    top: 5%;
+    left: 0%;
+    width: 25%;
+    height: 40%;
+    background: url(../img/arrow_left.png);
+    background-size: contain;
+}
+.left:hover{
+    transform: scale(1.4);
+}
+
+.right{
+        top: -35%;
+        left: 75%;
+        width: 25%;
+        height: 40%;  
+        background: url(../img/arrow_right.png);
+        background-size: contain; 
+}
+
+.right:hover{
+    transform: scale(1.4);
+}
+
+.down{
+    top: -30%;
+    left: 30%;
+    width: 40%;
+    height: 25%;
+    background: url(../img/arrow_down.png);
+    background-size: contain;
+}
+
+.down:hover{
+    transform: scale(1.4);
+}

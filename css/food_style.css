@@ -1,0 +1,34 @@
+.food1{
+    transform: scale(1.6);
+    background: url('../img/food1.png');
+    background-size: contain;
+}
+
+.food2{
+    transform: scale(1.4);
+    background: url('../img/food2.png');
+    background-size: contain;
+}
+
+.food3{
+    transform: scale(1.4);
+    background: url('../img/food3.png');
+    background-size: contain;
+}
+
+.food4{
+    transform: scale(1.4);
+    background: url('../img/food4.png');
+    background-size: contain;
+}
+
+.food5{
+    transform: scale(1.7);
+    background: url('../img/food5.png');
+    background-size: contain;
+}
+.food6{
+    transform: scale(1.4);
+    background: url('../img/food6.png');
+    background-size: cover;
+}

@@ -1,0 +1,49 @@
+.head1{
+    
+    background: radial-gradient(black,rgb(240, 124, 124), rgb(228, 228, 129));
+    transform: scale(1.2);
+    border-radius: 9px;
+    z-index: 2;
+}
+
+.head2{
+    background: radial-gradient(rgb(192, 28, 28),rgb(206, 206, 15), rgb(17, 17, 16));
+    transform: scale(1.2);
+    border-radius: 9px;
+    z-index: 2;
+}
+
+.head3{
+    background: radial-gradient(rgb(173, 192, 28),rgb(41, 15, 206), rgb(235, 235, 193));
+    transform: scale(1.2);
+    border-radius: 9px;
+    z-index: 2;
+}
+
+.head4{
+    background: radial-gradient(rgb(20, 20, 20),rgb(220, 220, 196), rgb(8, 197, 20));
+    transform: scale(1.2);
+    border-radius: 9px;
+    z-index: 2;
+}
+
+.snake1{
+    background: linear-gradient(purple,rgba(10,100,200,0.8),rgba(255,255,255,1),rgba(10,100,200,0.8),red);
+    animation: center_anim 1s ;
+    border-radius: 5px;
+}
+
+.snake2{
+    background: linear-gradient(rgb(15, 15, 15),rgba(186, 212, 241, 0.8),rgb(246, 171, 171),rgba(3, 32, 66, 0.8),rgb(5, 131, 47));
+    border-radius: 5px;
+}
+
+.snake3{
+    background: linear-gradient(rgb(246, 241, 241),rgba(204, 6, 171, 0.8),rgb(227, 215, 215));
+    border-radius: 50%;
+}
+
+.snake4{
+    background: linear-gradient(rgb(254, 2, 2),rgba(9, 9, 9, 0.8),rgb(248, 5, 5));
+    border-radius: 50%;
+}
